@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Chess-Game/static/css/main.76793c4b.css",
+    "main.js": "/Chess-Game/static/js/main.cc3e75ce.js",
+    "static/js/787.d9736180.chunk.js": "/Chess-Game/static/js/787.d9736180.chunk.js",
+    "static/media/wN.svg": "/Chess-Game/static/media/wN.51e7ce54b1e3e18b50b922766ecc15fc.svg",
+    "static/media/wQ.svg": "/Chess-Game/static/media/wQ.01f10ba4ba014c442c824464e82004c5.svg",
+    "static/media/wB.svg": "/Chess-Game/static/media/wB.2729a5500b30d0d7c5be31f1df7cc8f0.svg",
+    "static/media/bK.svg": "/Chess-Game/static/media/bK.7ee4114d21013603bfcd1850c6608f1f.svg",
+    "static/media/wK.svg": "/Chess-Game/static/media/wK.f3c6e140f71fb5ea2223feb1c90e5d17.svg",
+    "static/media/wP.svg": "/Chess-Game/static/media/wP.9f668191663c23a1bbd4ca2b84ffba8c.svg",
+    "static/media/bQ.svg": "/Chess-Game/static/media/bQ.98021e8774821f469ac7485227274251.svg",
+    "static/media/bN.svg": "/Chess-Game/static/media/bN.a3f15480c45ec075db948d068f975bf9.svg",
+    "static/media/bB.svg": "/Chess-Game/static/media/bB.cbf8cae7a47a1b86db4a62d8604b4810.svg",
+    "static/media/wR.svg": "/Chess-Game/static/media/wR.146cb5b3477325f2d2db7ae1773bd678.svg",
+    "index.html": "/Chess-Game/index.html",
+    "static/media/bR.svg": "/Chess-Game/static/media/bR.8cc68a95155f0112b23bac295b573329.svg",
+    "static/media/bP.svg": "/Chess-Game/static/media/bP.8bb6cce6fb0fdb69fef371a3ef4c38c6.svg",
+    "main.76793c4b.css.map": "/Chess-Game/static/css/main.76793c4b.css.map",
+    "main.cc3e75ce.js.map": "/Chess-Game/static/js/main.cc3e75ce.js.map",
+    "787.d9736180.chunk.js.map": "/Chess-Game/static/js/787.d9736180.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76793c4b.css",
+    "static/js/main.cc3e75ce.js"
+  ]
+}
