@@ -45,7 +45,7 @@ const BoardComponent: React.FC<BoardProps> = ({ board, setBoard, currentPlayer, 
 
     return (
         <div className="board__wrapper">
-            <h3>Текущий  игрок: <span className={currentPlayer?.color === Colors.WHITE ? "white__player" : "black_player"}>
+            <h3>Текущий  игрок: <span className={currentPlayer?.color === Colors.WHITE ? "white__player" : ""}>
                 {currentPlayer?.color}
             </span></h3>
             <div className="board">

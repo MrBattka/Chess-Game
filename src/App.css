@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.app  {
+.app {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -54,24 +54,22 @@
 }
 
 .white__player {
-  color: gray;
-}
-
-.black__player {
-  color: black;
+  color: whitesmoke;
 }
 
 .lost {
   height: calc(50vh - 60px);
+  min-width: 140px;
   padding: 30px;
   background-color: lightgray;
 }
 
 .timer__wrapper {
   display: flex;
+  justify-content: center;
   background-color: lightgray;
   height: 100vh;
-  padding-left: 30px;
+  min-width: 200px;
 }
 
 .timer {
@@ -91,4 +89,33 @@
   justify-content: center;
   height: 100vh;
   background-color: lightgray;
+}
+
+.white__timer {
+  color: whitesmoke;
+}
+
+
+@media(max-width: 924px) {
+  .board {
+    width: 360px;
+    height: 360px;
+  }
+  .cell {
+    width: 45px;
+    height: 45px;
+  }
+  .timer__wrapper {
+    min-width: 150px;
+  }
+  .lost {
+    min-width: 123px;
+    padding: 40px 20px 20px 20px;
+  }
+  .lost h3 {
+    font-size: 16px;
+  }
+  .timer h2 {
+    font-size: 18px;
+  }
 }

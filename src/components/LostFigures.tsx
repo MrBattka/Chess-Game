@@ -9,7 +9,7 @@ interface LostFiguresProps {
 const LostFigures: React.FC<LostFiguresProps> = ({title, figure}) => {
     return(
         <div className="lost">
-            <h3>{title}</h3>
+            <h3 className={title === "Белые фигуры:" ? "white__timer" : ""}>{title}</h3>
             {figure.map(figure =>
                 <div>
                     {figure.name} {figure.logo && <img width={20} height={20} src={figure.logo} alt="#"/>}
