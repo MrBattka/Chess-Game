@@ -85,10 +85,15 @@
 
 .board__wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   height: 100vh;
   background-color: lightgray;
+}
+
+.wrapper__desk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .white__timer {
@@ -117,5 +122,48 @@
   }
   .timer h2 {
     font-size: 18px;
+  }
+}
+
+@media(max-width: 683px) {
+  .menu {
+    position: absolute;
+    margin-top: 80px;
+  }
+
+  .timer__wrapper {
+    height: 30px;
+  }
+  
+  .timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timer h2 {
+    margin-right: 20px;
+  }
+
+  .timer button {
+    margin: 0;
+  }
+
+  .lost__wrapper {
+      display: none;
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      margin-top: 550px;
+  }
+
+  .lost {
+    display: none;
+    height: 0px;
+    min-width: 140px;
+    
+    padding: 10px;
+    background-color: lightgray;
   }
 }

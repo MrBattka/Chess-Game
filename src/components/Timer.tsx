@@ -43,8 +43,8 @@ const Timer: React.FC<TimerProps> = ({ currentPlayer, restart }) => {
     return (
         <div className="timer__wrapper">
             <div className="timer">
-                <h2>Черные - {blackTime}</h2>
                 <h2 className="white__timer">Белые - {whiteTime}</h2>
+                <h2>Черные - {blackTime}</h2>
                 <div>
                     <button onClick={handleRestart}>Restart game</button>
                 </div>
